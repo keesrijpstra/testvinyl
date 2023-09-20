@@ -51,6 +51,8 @@ class TalkToMeCommand extends Command
             $io->note('I recommend the mix: ' . $mix['title']);
         }
 
+        echo 'sdfkjsdalkfjsd';
+
         return Command::SUCCESS;
     }
 }
