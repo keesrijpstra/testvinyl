@@ -11,3 +11,6 @@
 ###> symfony/asset-mapper ###
 /public/assets/
 ###< symfony/asset-mapper ###
+
+/bin/tailwindcss
+/assets/styles/app.tailwind.css

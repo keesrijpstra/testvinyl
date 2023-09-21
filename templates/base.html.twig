@@ -10,7 +10,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
 
         {% block stylesheets %}
-            <link rel="stylesheet" href="{{ asset('styles/app.css') }}">
+            <link rel="stylesheet" href="{{ asset('styles/app.tailwind.css') }}">
         {% endblock %}
 
         {% block javascripts %}
@@ -46,6 +46,8 @@
             </nav>
             <!-- End Main Navigation -->
         </div>
+
+        <img src="{{ asset('images/penguin.png') }}">
 
         {% block body %}{% endblock %}
 
