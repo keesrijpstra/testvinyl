@@ -18,4 +18,19 @@ return [
         'path' => 'app.js',
         'preload' => true,
     ],
+    'lodash/camelCase' => [
+        'url' => 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/camelCase/+esm',
+    ],
+    '@hotwired/stimulus' => [
+        'url' => 'https://cdn.jsdelivr.net/npm/@hotwired/stimulus@3.2.1/+esm',
+        'preload' => true,
+    ],
+    '@symfony/stimulus-bundle' => [
+        'path' => '@symfony/stimulus-bundle/loader.js',
+        'preload' => true,
+    ],
+    '@hotwired/turbo' => [
+        'url' => 'https://cdn.jsdelivr.net/npm/@hotwired/turbo@7.3.0/+esm',
+        'preload' => true,
+    ],
 ];
